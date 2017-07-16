@@ -11,4 +11,12 @@ if [ ! "$(ls -A $REPO)" ]; then
 fi
 
 /sync.sh
+
+git show-ref refs/heads/master
+rc=$?
+if [[ $rc != 0 ]]
+then
+  git update-ref refs/heads/master upstream/master
+fi
+
 exec "$@"
