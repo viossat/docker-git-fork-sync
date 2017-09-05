@@ -1,4 +1,4 @@
-FROM alpine:3.4
+FROM alpine:3.6
 MAINTAINER Mathieu Viossat <mathieu@viossat.fr>
 
 ENV REPO=/repo \

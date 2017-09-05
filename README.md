@@ -2,7 +2,7 @@
 
 Simple tool to keep a Git repository synchronized with its upstream.
 
-- Alpine-based, 24.8 MB
+- Alpine-based, 28 MB
 - Synchronizes all branches and tags
 - Uses Cron, no webhook, no API
 - SSH ready
